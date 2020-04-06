@@ -50,7 +50,7 @@
                 <input type="radio" name="gender" value="女" checked="checked"  />女
                 <input type="radio" name="gender" value="跨性别者"  />跨性别者
             </c:if>
-            <c:if test="${user.gender == '跨性别'}">
+            <c:if test="${user.gender == '跨性别者'}">
                 <input type="radio" name="gender" value="男"  />男
                 <input type="radio" name="gender" value="女"  />女
                 <input type="radio" name="gender" value="跨性别者"  checked="checked"/>跨性别者
